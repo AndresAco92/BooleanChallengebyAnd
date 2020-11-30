@@ -1,0 +1,73 @@
+body{
+  background-image: url(background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 6%;
+}
+#container{
+  display: inline-block;
+  width: 3000px;
+  height: auto;
+  right: 30px;
+  margin: 1%;
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+}
+.subcontainer{
+  display: inline-block;
+  width: 2500px;
+  height: auto;
+  right: 30px;
+  margin: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.title{
+  text-align: center;
+}
+.subtitle{
+  font-size: 35px;
+  color: limegreen;
+}
+.buttons{
+  background-color: limegreen;
+  text-align: center;
+}
+.buttons>.click{
+  font-size: 40px;
+}
+.subselection{
+  font-size: 50px;
+  text-align: left;
+  color: white;
+}
+.square{
+  width: 30px;
+  height: 40px;
+}
+.carica> hr{
+  width: 30%;
+  height: 30px;
+  background-color: yellow;
+  border: 0;
+  margin: 0;
+  text-align: left;
+}
+.carica2> hr{
+  width: 45%;
+  height: 30px;
+  background-color: green;
+  border: 0;
+  margin: 0;
+  text-align: left;
+}
+.carica3> hr{
+  width: 15%;
+  height: 30px;
+  background-color: red;
+  border: 0;
+  margin: 0;
+  text-align: left;
+}
